@@ -1,12 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">M.M. Engineer Co</string>
-    <string name="app_tagline">Fire Prevention is Our Intention</string>
     <string name="Fire_Hose">Fire Hoses</string>
     <string name="Fire_Pump">Fire Pumps</string>
     <string name="Sprinkler_System">Sprinklers System</string>
     <string name="Valves">Valves</string>
     <string name="FireSafetyCabinets">Cabinets</string>
-    <string name="Hose_Reels">Hose Reel</string>
     <string name="Nozzles">Nozzles</string>
     <string name="Monitors">Monitors</string>
     <string name="DryRiserequipments">Dry Riser Hydrants</string>
