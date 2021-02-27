@@ -46,7 +46,7 @@
                 <ImageView
                     android:layout_width="190dp"
                     android:layout_height="190dp"
-                    android:src="@drawable/FireHose"
+                    android:src="@drawable/firehose"
                     android:layout_alignParentRight="true"
                     />
 
@@ -76,7 +76,7 @@
                 <ImageView
                     android:layout_width="190dp"
                     android:layout_height="190dp"
-                    android:src="@drawable/FirePump"
+                    android:src="@drawable/firepump"
                     android:layout_alignParentLeft="true"
                     />
 
@@ -105,7 +105,7 @@
                 <ImageView
                     android:layout_width="190dp"
                     android:layout_height="190dp"
-                    android:src="@drawable/Valves"
+                    android:src="@drawable/valves"
                     android:layout_alignParentRight="true"
                     />
 
@@ -146,7 +146,7 @@
                 <ImageView
                     android:layout_width="190dp"
                     android:layout_height="190dp"
-                    android:src="@drawable/SprinklersSystem"
+                    android:src="@drawable/sprinklerssystem"
                     android:layout_alignParentLeft="true"
                     />
 
@@ -175,7 +175,7 @@
                 <ImageView
                     android:layout_width="190dp"
                     android:layout_height="190dp"
-                    android:src="@drawable/Monitors"
+                    android:src="@drawable/monitor"
                     android:layout_alignParentRight="true"
                     />
 
@@ -206,7 +206,7 @@
                 <ImageView
                     android:layout_width="190dp"
                     android:layout_height="190dp"
-                    android:src="@drawable/Nozzles"
+                    android:src="@drawable/nozzles"
                     android:layout_alignParentLeft="true"
                     />
 
@@ -236,7 +236,7 @@
                 <ImageView
                     android:layout_width="190dp"
                     android:layout_height="190dp"
-                    android:src="@drawable/FireSafetyCabinets"
+                    android:src="@drawable/firesafetycabinets"
                     android:layout_alignParentRight="true"
                     />
 
@@ -291,7 +291,7 @@
                 <ImageView
                     android:layout_width="190dp"
                     android:layout_height="190dp"
-                    android:src="@drawable/StandsPostHydrants"
+                    android:src="@drawable/standsposthydrants"
                     android:layout_alignParentLeft="true"
                     />
 
@@ -331,7 +331,7 @@
                 <ImageView
                     android:layout_width="190dp"
                     android:layout_height="190dp"
-                    android:src="@drawable/CouplingsandAdapters"
+                    android:src="@drawable/couplingsandadapters"
                     android:layout_alignParentRight="true"
                     />
 
@@ -405,7 +405,7 @@
                 <ImageView
                     android:layout_width="190dp"
                     android:layout_height="190dp"
-                    android:src="@drawable/HoseReels"
+                    android:src="@drawable/hosereels"
                     android:layout_alignParentRight="true"
                     />
 
