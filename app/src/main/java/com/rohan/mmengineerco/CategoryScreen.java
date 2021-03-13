@@ -13,5 +13,6 @@ public class CategoryScreen extends AppCompatActivity {
         setContentView(R.layout.activity_category_screen);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
+
     }
 }
