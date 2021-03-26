@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MMEngineerCo">
-        <activity android:name=".CategoryScreen"></activity>
+        <activity
+            android:name=".Navigation_Drawer_homescreen"
+            android:label="@string/title_activity_navigation__drawer_homescreen"
+            android:theme="@style/Theme.MMEngineerCo.NoActionBar"></activity>
+        <activity android:name=".CategoryScreen" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -12,6 +12,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.rohan.mmengineerco.ui.home.HomeFragment;
+
 public class MainActivity extends AppCompatActivity {
     private  int SPLASH_SCREEN_TIME_IN_MILLIS =5000;
     //Animation variable
@@ -36,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {//postdelayed delays the process for a Specific amount of time
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this,CategoryScreen.class);//intent is used to go from one activity to another
+                Intent intent = new Intent(MainActivity.this, Navigation_Drawer_homescreen.class);//intent is used to go from one activity to another
                 startActivity(intent);
                 finish();
             }

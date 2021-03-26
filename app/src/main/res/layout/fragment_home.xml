@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.home.HomeFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context=".Categories"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:src="@drawable/logo"></ImageView>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fire"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Extinguisher"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_marginTop="35dp"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoFireExtinguisher"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/fireextinguisher"
+                        android:layout_alignParentRight="true"
+                        />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fire"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Extinguisher"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Parts"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoFireExtinguisherparts"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/fireextinguisherparts"
+                        android:layout_alignParentLeft="true"
+                        />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Fire_Hose"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoFireHose"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/firehose"
+                        android:layout_alignParentRight="true"
+                        />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Fire_Pump"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoFirePump"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/firepump"
+                        android:layout_alignParentLeft="true"
+                        />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Valves"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoValves"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/valves"
+                        android:layout_alignParentRight="true"
+                        />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sprinklers"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="System"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoSprinklerSystem"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/sprinklerssystem"
+                        android:layout_alignParentLeft="true"
+                        />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Monitors"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoMonitors"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/monitor"
+                        android:layout_alignParentRight="true"
+                        />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Nozzles"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoNozzles"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/nozzles"
+                        android:layout_alignParentLeft="true"
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/FireSafetyCabinets"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoCabinets"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/firesafetycabinets"
+                        android:layout_alignParentRight="true"
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stands"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Post"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hydrants"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+
+                        android:layout_marginTop="70dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoStandsPostHydrants"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/standsposthydrants"
+                        android:layout_alignParentLeft="true"
+                        />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Coupling and"
+                        android:textColor="@color/white"
+                        android:textSize="27sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Adapters"
+                        android:textColor="@color/white"
+                        android:textSize="27sp"
+                        android:layout_marginTop="35dp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoCouplingsandAdapters"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/couplingsandadapters"
+                        android:layout_alignParentRight="true"
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dry Riser"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Equipments"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_alignParentRight="true"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoDryRiserequipments"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/dryriserequipment"
+                        android:layout_alignParentLeft="true"
+                        />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Hose_Reels"
+                        android:textColor="@color/white"
+                        android:textSize="27sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoHoseReel"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/hosereels"
+                        android:layout_alignParentRight="true"
+                        />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Safety Items"
+                        android:textColor="@color/white"
+                        android:textSize="27sp"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="25dp"
+
+                        android:layout_alignParentRight="true"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:id="@+id/gotoMiscellaneous"/>
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/miscellaneous"
+                        android:layout_alignParentLeft="true"
+                        />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </ScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>

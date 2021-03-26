@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.gallery.GalleryFragment">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/logo_about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+    <TextView
+        android:id="@+id/about_us_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="uniform"
+        android:text="Fire is the biggest enemy of mankind,Can be used efficiently if handled properly.we as a firefighter has always look to possess and provide capabilities to handle and manage fire with lot of advancement in technolgy.With the support of various approving agency and regulators we have been able to provide latest innovative solutions and avoid disaster from the risk of fire. I wish that new and new products and technologies are developed and adopted globally to make world fire safe. keep moving..........."
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="22dp"
+        android:textStyle="normal|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>
+</ScrollView>
