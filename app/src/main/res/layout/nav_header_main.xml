@@ -35,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
 
-        android:text="@string/app_name"
+        android:text="M.M Engineering Co"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
