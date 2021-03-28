@@ -82,4 +82,40 @@ public class Navigation_Drawer_homescreen extends AppCompatActivity {
         }
 
     }
+
+    public void openPhone_Contact_no_1(View view) {
+
+//        callIntent.setData(Uri.parse("tel:9422036905"));
+//        startActivity(callIntent);
+        Uri u = Uri.parse("tel:" + "9422036905");
+        Intent callIntent = new Intent(Intent.ACTION_DIAL,u);
+        startActivity(callIntent);
+
+    }
+
+    public void openPhone_Contact_no_2(View view) {
+        Uri u = Uri.parse("tel:" + "8888954488");
+        Intent callIntent = new Intent(Intent.ACTION_DIAL,u);
+        startActivity(callIntent);
+    }
+
+    public void openWhatsapponContactus(View view) {
+        try {
+
+
+            String toNumber = "+91 9823113282"; // Replace with mobile phone number without +Sign or leading zeros, but with country code.
+            //Suppose your country is India and your phone number is “xxxxxxxxxx”, then you need to send “91xxxxxxxxxx”.
+
+
+            String text = "Hello M.M Engineer Co !!";
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse("http://api.whatsapp.com/send?phone=" + toNumber + "&text=" + text));
+            startActivity(intent);
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(getApplicationContext(), "It seems that Whatsapp is not installed in this Phone. ", Toast.LENGTH_LONG).show();
+
+        }
+
+    }
 }

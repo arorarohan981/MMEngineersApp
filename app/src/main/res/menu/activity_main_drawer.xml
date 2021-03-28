@@ -12,7 +12,7 @@
             android:id="@+id/nav_gallery"
             android:title="About Us" />
         <item
-            android:id="@+id/nav_contact_us"
+            android:id="@+id/nav_slideshow"
             android:title="Contact Us" />
     </group>
 </menu>

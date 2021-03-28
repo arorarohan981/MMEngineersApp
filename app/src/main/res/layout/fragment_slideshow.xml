@@ -15,7 +15,7 @@
        <ImageView
            android:id="@+id/logo_about_us"
            android:layout_width="wrap_content"
-           android:layout_height="250dp"
+           android:layout_height="350dp"
            android:layout_margin="10dp"
            app:layout_constraintEnd_toEndOf="parent"
            app:layout_constraintStart_toStartOf="parent"
@@ -114,29 +114,31 @@
            <TextView
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:text="9422036905"
+               android:text="+919422036905"
                android:autoSizeMaxTextSize="100sp"
                android:autoSizeMinTextSize="12sp"
                android:autoSizeStepGranularity="2sp"
                android:autoSizeTextType="uniform"
-               android:textColor="@color/black"
+               android:textColor="@color/blue"
                android:textIsSelectable="false"
                android:textSize="22dp"
                android:textStyle="normal|bold"
                android:layout_marginLeft="5dp"
                android:layout_marginTop="15dp"
+               android:onClick="openPhone_Contact_no_1"
                android:layout_marginRight="15dp"/>
                <TextView
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:text="8888954488"
+                   android:text="+918888954488"
                    android:autoSizeMaxTextSize="100sp"
                    android:autoSizeMinTextSize="12sp"
                    android:autoSizeStepGranularity="2sp"
                    android:autoSizeTextType="uniform"
-                   android:textColor="@color/black"
+                   android:textColor="@color/blue"
                    android:textIsSelectable="false"
                    android:textSize="22dp"
+                   android:onClick="openPhone_Contact_no_2"
                    android:textStyle="normal|bold"
                    android:layout_marginLeft="5dp"
                    android:layout_marginTop="10dp"
@@ -169,13 +171,40 @@
                android:autoSizeMinTextSize="12sp"
                android:autoSizeStepGranularity="2sp"
                android:autoSizeTextType="uniform"
-               android:textColor="@color/black"
+               android:textColor="@color/blue"
                android:textIsSelectable="false"
                android:textSize="22dp"
                android:textStyle="normal|bold"
                android:layout_marginLeft="5dp"
                android:layout_marginTop="15dp"
-               android:layout_marginRight="15dp"/>
+               android:layout_marginRight="15dp"
+               android:onClick="sendmail"/>
+
        </androidx.appcompat.widget.LinearLayoutCompat>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:onClick="openWhatsapponContactus">
+       <ImageView
+           android:layout_marginLeft="40dp"
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:src="@drawable/whatsapplogo"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Contact Us "
+           android:autoSizeMaxTextSize="100sp"
+           android:autoSizeMinTextSize="12sp"
+           android:autoSizeStepGranularity="2sp"
+           android:autoSizeTextType="uniform"
+           android:textColor="@color/black"
+           android:textIsSelectable="false"
+           android:textSize="22dp"
+           android:textStyle="normal|bold"
+           android:layout_marginLeft="25dp"
+           android:layout_marginTop="15dp"
+           />
+       </LinearLayout>
    </LinearLayout>
    </ScrollView>
