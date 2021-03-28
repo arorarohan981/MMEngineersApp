@@ -30,15 +30,7 @@ public class Navigation_Drawer_homescreen extends AppCompatActivity {
         setContentView(R.layout.activity_navigation__drawer_homescreen);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-//        email_id_tv=findViewById(R.id.email_id);
-//        email_id_tv.setOnClickListener(new View.OnClickListener() {
-//                        @Override
-//            public void onClick(View view) {
-//                            Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
-//                            emailIntent.setData(Uri.parse("mm_fire_safety@rediffmail.com"));
-//                            startActivity(emailIntent);
-//            }
-//        });
+
 //        FloatingActionButton fab = findViewById(R.id.fab);
 ////        fab.setOnClickListener(new View.OnClickListener() {
 //            @Override
