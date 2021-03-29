@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "688051670394",
+    "project_id": "mmengineeringandroidapp",
+    "storage_bucket": "mmengineeringandroidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688051670394:android:ece2816b5700b9c90f1ac3",
+        "android_client_info": {
+          "package_name": "com.rohan.mmengineerco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688051670394-ofq5m6s896gb93n057bnhcdomoqbmilp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfpkGmVd8m8udO9GOpdRA2R-H-guNNVHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688051670394-ofq5m6s896gb93n057bnhcdomoqbmilp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

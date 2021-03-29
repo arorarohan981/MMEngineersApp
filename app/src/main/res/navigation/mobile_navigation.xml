@@ -22,4 +22,9 @@
         android:name="com.rohan.mmengineerco.ui.slideshow.SlideshowFragment"
         android:label="Contact Us"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_admin"
+        android:name="com.rohan.mmengineerco.ui.Admin.AdminFragment"
+        android:label="Admin Panel"
+        tools:layout="@layout/fragment_slideshow" />
 </navigation>
