@@ -4,14 +4,15 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.home.HomeFragment">
+        tools:context=".admin_product_activity">
+
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
-            tools:context=".Categories"
+            tools:context=".admin_product_activitys"
             >
             <LinearLayout
                 android:layout_width="match_parent"
@@ -35,11 +36,7 @@
                         android:layout_height="wrap_content"
                         android:text="Fire"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         />
@@ -48,11 +45,7 @@
                         android:layout_height="wrap_content"
                         android:text="Extinguisher"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_marginTop="35dp"
@@ -61,7 +54,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoFireExtinguisher"/>
+                        android:id="@+id/ad_gotoFireExtinguisher"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -82,11 +75,7 @@
                         android:layout_height="wrap_content"
                         android:text="Fire"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_alignParentRight="true"
@@ -96,11 +85,7 @@
                         android:layout_height="wrap_content"
                         android:text="Extinguisher"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_marginTop="35dp"
@@ -111,11 +96,7 @@
                         android:layout_height="wrap_content"
                         android:text="Parts"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_marginTop="70dp"
@@ -125,7 +106,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoFireExtinguisherparts"/>
+                        android:id="@+id/ad_gotoFireExtinguisherparts"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -146,11 +127,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/Fire_Hose"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         />
@@ -158,7 +135,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoFireHose"/>
+                        android:id="@+id/ad_gotoFireHose"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -179,11 +156,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/Fire_Pump"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_alignParentRight="true"
@@ -192,7 +165,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoFirePump"/>
+                        android:id="@+id/ad_gotoFirePump"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -213,11 +186,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/Valves"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         />
@@ -225,7 +194,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoValves"/>
+                        android:id="@+id/ad_gotoValves"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -246,11 +215,7 @@
                         android:layout_height="wrap_content"
                         android:text="Sprinklers"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_alignParentRight="true"
@@ -260,11 +225,7 @@
                         android:layout_height="wrap_content"
                         android:text="System"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_marginTop="35dp"
@@ -274,7 +235,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoSprinklerSystem"/>
+                        android:id="@+id/ad_gotoSprinklerSystem"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -294,12 +255,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/Monitors"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         />
@@ -307,7 +264,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoMonitors"/>
+                        android:id="@+id/ad_gotoMonitors"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -328,12 +285,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/Nozzles"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_alignParentRight="true"
@@ -342,7 +295,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoNozzles"/>
+                        android:id="@+id/ad_gotoNozzles"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -364,11 +317,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/FireSafetyCabinets"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         />
@@ -376,7 +325,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoCabinets"/>
+                        android:id="@+id/ad_gotoCabinets"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -399,11 +348,7 @@
                         android:layout_height="wrap_content"
                         android:text="Stands"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_alignParentRight="true"
@@ -413,11 +358,7 @@
                         android:layout_height="wrap_content"
                         android:text="Post"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_marginTop="35dp"
@@ -428,11 +369,7 @@
                         android:layout_height="wrap_content"
                         android:text="Hydrants"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
 
@@ -443,7 +380,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoStandsPostHydrants"/>
+                        android:id="@+id/ad_gotoStandsPostHydrants"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -464,11 +401,7 @@
                         android:layout_height="wrap_content"
                         android:text="Coupling and"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="27sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
 
@@ -478,11 +411,7 @@
                         android:layout_height="wrap_content"
                         android:text="Adapters"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="27sp"
                         android:layout_marginTop="35dp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
@@ -491,7 +420,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoCouplingsandAdapters"/>
+                        android:id="@+id/ad_gotoCouplingsandAdapters"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -514,11 +443,7 @@
                         android:layout_height="wrap_content"
                         android:text="Dry Riser"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_alignParentRight="true"
@@ -528,11 +453,7 @@
                         android:layout_height="wrap_content"
                         android:text="Equipments"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="30sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
                         android:layout_marginTop="35dp"
@@ -542,7 +463,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoDryRiserequipments"/>
+                        android:id="@+id/ad_gotoDryRiserequipments"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -563,11 +484,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/Hose_Reels"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="27sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
 
@@ -577,7 +494,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoHoseReel"/>
+                        android:id="@+id/ad_gotoHoseReel"/>
                     <ImageView
                         android:layout_width="190dp"
                         android:layout_height="190dp"
@@ -599,11 +516,7 @@
                         android:layout_height="wrap_content"
                         android:text="Safety Items"
                         android:textColor="@color/white"
-                        android:textSize="27dp"
-                        android:autoSizeMaxTextSize="100sp"
-                        android:autoSizeMinTextSize="12sp"
-                        android:autoSizeStepGranularity="2sp"
-                        android:autoSizeTextType="uniform"
+                        android:textSize="27sp"
                         android:fontFamily="sans-serif-black"
                         android:padding="25dp"
 
@@ -613,7 +526,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00000000"
-                        android:id="@+id/gotoSafetyItems"/>
+                        android:id="@+id/ad_gotoSafetyItems"/>
                     <ImageView
                         android:layout_width="160dp"
                         android:layout_height="160dp"

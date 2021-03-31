@@ -24,6 +24,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.rohan.mmengineerco.R;
+import com.rohan.mmengineerco.admin_product_activity;
 import com.rohan.mmengineerco.ui.gallery.GalleryViewModel;
 
 public class AdminFragment extends Fragment {
@@ -89,10 +90,9 @@ public class AdminFragment extends Fragment {
                                             }
 
                                             private void sendusertomainactivity() {
-//                                                Intent intent = new Intent(getActivity().getApplicationContext(), AdminProductActivity.class);
-//                                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-//                                                startActivity(intent);
-//                                                finish();
+                                                Intent intent = new Intent(getActivity().getApplicationContext(), admin_product_activity.class);
+                                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                                startActivity(intent);
                                             }
                                         });
 

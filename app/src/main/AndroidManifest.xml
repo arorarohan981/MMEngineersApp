@@ -11,12 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MMEngineerCo">
+        <activity android:name=".ProductDetailsActivity"></activity>
+        <activity android:name=".Category1Activity" />
+        <activity android:name=".Admin_Modify_Product" />
+        <activity android:name=".admin_products_Category" />
+        <activity android:name=".Admin_Add_New_Product" />
+        <activity android:name=".admin_product_activity" />
         <activity
             android:name=".Navigation_Drawer_homescreen"
             android:label="@string/title_activity_navigation__drawer_homescreen"
             android:theme="@style/Theme.MMEngineerCo.NoActionBar" />
         <activity android:name=".CategoryScreen" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
