@@ -22,8 +22,9 @@ private Button fireextinguisher,fireextinguisherparts,firehoses,firepumps,valves
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ActionBar ab= getSupportActionBar();
-        ab.setTitle("Admin Page");
+        mAuth = FirebaseAuth.getInstance();
+        currentuser = mAuth.getCurrentUser();
+        getSupportActionBar().setTitle("Admin Page");
         setContentView(R.layout.activity_admin_product_activity);
         fireextinguisher=findViewById(R.id.ad_gotoFireExtinguisher);
         fireextinguisherparts=findViewById(R.id.ad_gotoFireExtinguisherparts);

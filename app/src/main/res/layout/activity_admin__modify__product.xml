@@ -63,7 +63,8 @@ tools:context=".Admin_Modify_Product">
             android:layout_marginTop="20dp"
             android:textSize="18sp"
             android:textAllCaps="false"
-            android:textColor="@android:color/black"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
             />
 
         <Button
@@ -78,7 +79,8 @@ tools:context=".Admin_Modify_Product">
             android:layout_marginTop="20dp"
             android:textSize="18sp"
             android:textAllCaps="false"
-            android:textColor="@android:color/black"/>
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"/>
 
     </RelativeLayout>
 </ScrollView>

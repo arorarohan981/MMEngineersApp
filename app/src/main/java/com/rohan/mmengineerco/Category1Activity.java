@@ -172,8 +172,12 @@ public class Category1Activity extends AppCompatActivity {
     }
 
     private void fbsearch (String searchText) {
-        String pquery = searchText.toUpperCase();
-        Query sQuery = ProductsRef.orderByChild("pname").startAt(pquery).endAt(pquery + "\uf8ff");
+//        String pquery = searchText.toUpperCase();
+        char[] letters=searchText.toCharArray();
+        String firstLetter = String.valueOf(letters[0]).toUpperCase();
+        String remainingLetters = searchText.substring(1);
+        searchText=firstLetter+remainingLetters;
+        Query sQuery = ProductsRef.orderByChild("pname").startAt(searchText).endAt(searchText + "uf8ff");
         FirebaseRecyclerOptions<Products> options =
                 new FirebaseRecyclerOptions.Builder<Products>()
                         .setQuery(sQuery, Products.class).setLifecycleOwner(this).build();

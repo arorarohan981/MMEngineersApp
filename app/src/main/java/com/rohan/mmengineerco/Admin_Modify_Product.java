@@ -53,7 +53,7 @@ public class Admin_Modify_Product extends AppCompatActivity {
         profileimgref = FirebaseStorage.getInstance().getReference().child("Product Images");
         ProductId = getIntent().getStringExtra("pid");
         CategoryName = getIntent().getStringExtra("category");
-        getActionBar().setTitle(CategoryName);
+        getSupportActionBar().setTitle(CategoryName);
         loadingbar = new ProgressDialog(this);
         InputProductImage.setOnClickListener(new View.OnClickListener() {
             @Override
